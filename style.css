@@ -1,40 +1,15 @@
 body {
-  background-color: #f5f5dc;
+  /*background-color: #f5f5dc;*/
+  background: #FFFFFF;
 }
 
-main {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
-
-div {
-  margin: 150px;
-}
 
 h1, h2, p {
-  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
-a {
-  text-decoration: none;
-  width: 500px;
-  text-align: center;
-  margin: 20px;
-}
-
-section {
-  display: flex;
-  justify-content: space-between;
-}
-
-h1 {
-  text-align: center;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
-  order:-1;
-  justify-content: flex-start;
+.web-developer {
+  color: rgb(120,255,239);
+  font-size: 90px;
+  font-weight: bold;
 }

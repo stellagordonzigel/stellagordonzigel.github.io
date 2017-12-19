@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stella's Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Stella Gordon-Zigel</h1>
+    <h1>Web Developer</h1>
+    <!-- <section>
+      <a href="https://github.com/stellagordonzigel">
+        <img src="github_icon.svg" alt="GitHub Icon" style="height: 60px">
+      </a>
+      <a href="https://www.linkedin.com/in/stella-gordon-zigel-a46930b6/">
+        <img src="linkedin_icon.png" alt="LinkedIn Icon" style="height: 60px">
+      </a>
+      <a href="mailto:sgordonzigel@gmail.com">
+        <img src="email_icon.png" alt="Email Icon" style="height: 60px">
+      </a>
+    </section> -->
+    <main>
+      <div>
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div>
+        <img src="portfolio_about_me.jpg" alt="Stella Gordon-Zigel Picture">
+      </div>
+      <nav>
+        <p>Project 1</p>
+        <p>Project 2</p>
+        <p>Project 3</p>
+        <p>Project 4</p>
+      </nav>
+    </main>
+
+  </body>
+</html>
+
+
+
+body {
+  /*background-color: #f5f5dc;*/
+  background: #FFFFFF;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+div {
+  margin: 150px;
+}
+
+h1, h2, p {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  width: 500px;
+  text-align: center;
+  margin: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  order:-1;
+  justify-content: flex-start;
+}
