@@ -12,10 +12,6 @@ h1, h2, p, a {
 a {
   color: black;
 }
-/*
-img {
-  width: 250px;
-}*/
 
 .web-developer {
   /*color: rgb(120,255,239);*/
@@ -33,31 +29,17 @@ img {
   color: rgba(0,0,0,.7);
 }
 
-.name {
-  padding-left: 110px;
-  padding-top: 80px;
-}
-
-/*.brand-statement {
-  padding-left: 110px;
-  padding-right: 110px;
-  margin-top: -100px;
-  color: rgba(0,0,0,.7);
-  padding-bottom: 90px;
-}*/
-
 .brand-statement-photo-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: -100px;
-  width: 98%;
+  /*width: 98%;*/
   line-height: 1.5;
 }
 
 .brand-statement {
   margin-right: 50px;
-  margin-left: -110px;
   color: rgba(0,0,0,.7);
   width: 700px;
 }
@@ -67,6 +49,7 @@ img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  margin-right: 110px;
 }
 
 nav {
@@ -81,23 +64,14 @@ nav {
   justify-content: space-between;
 }
 
-.git-hub {
-  margin-left: 20px;
-  margin-right: -40px;
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  /*padding-right: 20px;*/
 }
 
-.email {
-  margin-left: -120px;
-}
-
-.linkedin {
-  margin-left: -240px;
-}
-
-.nav-text {
-  margin-right: 250px;
-  /*padding-left: 20px;
-  padding-right: 20px;*/
+.git-hub, .email, .linkedin {
+  margin: 5px;
 }
 
 .projects-container {
@@ -113,19 +87,12 @@ nav {
 .project-items {
   width: 500px;
   line-height: 1.4;
+  max-width: 100%;
 }
 
 .individual-projects {
   margin: 0 50px;
-  /*display: flex;
-  justify-content: center;
-  flex-direction: column;*/
-  /*padding: 0 10px;*/
 }
-
-/*.individual-projects:hover {
-  background-color: rgba(255,0,255,.2)
-}*/
 
 .project-title {
   text-align: center;
@@ -146,7 +113,20 @@ nav {
 }
 
 @media screen and (max-width: 480px) {
-  .project-container, . {
+  .projects-container, .nav-container, .technology-container {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .web-developer {
+    font-size: 200%;
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .brand-statement-photo-container {
+    margin-top: auto;
   }
 }
