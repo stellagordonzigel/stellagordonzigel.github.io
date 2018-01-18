@@ -52,6 +52,7 @@ img {
   flex-wrap: wrap;
   margin-top: -100px;
   width: 98%;
+  line-height: 1.5;
 }
 
 .brand-statement {
@@ -95,15 +96,11 @@ nav {
 
 .nav-text {
   margin-right: 250px;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
 }
 
-/*.nav-text {
-  padding-left: 20px;
-  padding-right: 20px;
-}*/
-
-
-.project-container {
+.projects-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -115,43 +112,38 @@ nav {
 
 .project-items {
   width: 500px;
+  line-height: 1.4;
 }
 
-.project-one-container, .project-two-container, .project-three-container, .project-four-container {
+.individual-projects {
   margin: 0 50px;
-  padding: 0 10px;
+  /*display: flex;
+  justify-content: center;
+  flex-direction: column;*/
+  /*padding: 0 10px;*/
 }
 
-.project-one-container:hover, .project-two-container:hover,
-.project-three-container:hover, .project-four-container:hover {
-  background-color: rgba(255, 0, 255, .2);
-}
+/*.individual-projects:hover {
+  background-color: rgba(255,0,255,.2)
+}*/
 
 .project-title {
   text-align: center;
 }
 
-
-/*.project-one-container, .project-three-container {
-  height: 400px;
-  background-color: rgba(120,255,239,.4);
+.technology-container {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.project-one-item, .project-two-item {
-  margin: 20px;
-  padding: 200px;
-  width: 250px;
+.technology {
+  font-family: 'Raleway', sans-serif;
+  border: 1px black solid;
+  /*border: 1px rgb(255, 0, 255) solid;*/
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
 }
-
-.project-two-container {
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
 
 @media screen and (max-width: 480px) {
   .project-container, . {
