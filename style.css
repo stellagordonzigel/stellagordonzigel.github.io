@@ -129,7 +129,7 @@ nav {
 }
 
 @media screen and (max-width: 480px) {
-  .projects-container, .nav-container, .technology-container {
+  .projects-container, .nav-container, .technology-container, .contact-footer {
     flex-direction: column;
   }
 }
