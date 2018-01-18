@@ -85,14 +85,24 @@ nav {
   width: 500px;
 }
 
-.project-items {
+.project-items, .project-links {
   width: 500px;
   line-height: 1.4;
   max-width: 100%;
 }
 
 .individual-projects {
-  margin: 0 50px;
+  margin: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border: 1px black solid;*/
+}
+
+.line-break {
+  border-top: 2px solid rgb(255, 0, 255);
+  margin-bottom: 10px;
+  margin-top: -15px;
 }
 
 .project-title {
@@ -111,6 +121,11 @@ nav {
   margin: 5px;
   padding: 5px;
   text-align: center;
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 480px) {
