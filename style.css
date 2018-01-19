@@ -125,6 +125,8 @@ nav {
   margin: 5px;
   padding: 5px;
   text-align: center;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
 .contact-footer {
@@ -148,5 +150,11 @@ nav {
 @media screen and (max-width: 480px) {
   .brand-statement-photo-container {
     margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-image {
+    margin-right: auto;
   }
 }
